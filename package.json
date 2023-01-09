@@ -1,19 +1,23 @@
 {
-  "name": "myexpressapp",
-  "version": "0.0.0",
-  "private": true,
-  "scripts": {
-    "start": "node ./bin/www"
-  },
+  "name": "handheldscanner",
+  "version": "1.0.0",
+  "description": "The server recive the data from the scanner and show it to the browser",
+  "main": "app.js",
   "dependencies": {
-    "cookie-parser": "^1.4.6",
-    "debug": "^4.3.4",
-    "ejs": "~2.6.1",
-    "express": "^4.16.4",
-    "http": "0.0.1-security",
-    "http-errors": "^2.0.0",
-    "nodemon": "^2.0.20",
-    "socket.io": "^4.5.4",
-    "socket.io-client": "^4.5.4"
-  }
+    "socket.io": "^4.5.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tin280/HandHeld-Scanner.git"
+  },
+  "author": "Tin Nguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tin280/HandHeld-Scanner/issues"
+  },
+  "homepage": "https://github.com/Tin280/HandHeld-Scanner#readme"
 }
